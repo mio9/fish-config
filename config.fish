@@ -18,6 +18,7 @@ alias gpt="git push && git push --tags"
 alias code="cursor"
 alias lzd='lazydocker'
 alias lemmerun='xattr -dr com.apple.quarantine'
+abbr -a fih fish
 
 # Personal bins
 fish_add_path "$HOME/bin"
