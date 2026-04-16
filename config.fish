@@ -26,7 +26,7 @@ fish_add_path "$HOME/bin"
 starship init fish | source
 zoxide init fish | source
 
-/Users/mio.wong/.local/bin/mise activate fish | source # added by https://mise.run/fish
+mise activate fish | source # added by https://mise.run/fish
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
