@@ -24,7 +24,6 @@ abbr -a sl ls
 
 # Personal bins
 fish_add_path "$HOME/bin"
-fish_add_path "$HOME/.local/bin/uv"
 
 # Propmt setups
 starship init fish | source
