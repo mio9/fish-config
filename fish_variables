@@ -9,4 +9,4 @@ SETUVAR _fisher_patrickf1_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_f
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejhillyerd/plugin\x2dgit\x1emio9/fish\x2ddocker\x2dcompose\x1epatrickf1/fzf\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_greeting:\x1d
-SETUVAR fish_user_paths:/Users/mio9/bin\x1e/Users/mio\x2ewong/bin
+SETUVAR fish_user_paths:/Users/mio9/\x2ecargo/bin\x1e/Users/mio9/bin\x1e/Users/mio\x2ewong/bin
