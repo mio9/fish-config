@@ -2,8 +2,12 @@ set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH
 
 # terminal setups
-eval "$(/opt/homebrew/bin/brew shellenv)"
 set -U fish_greeting
+
+if type -q brew
+    eval "$(brew shellenv)"
+end
+
 
 # Alias
 alias lg="lazygit"
@@ -24,6 +28,7 @@ abbr -a sl ls
 
 # Personal bins
 fish_add_path "$HOME/bin"
+fish_add_path "$HOME/.cargo/bin/"
 
 # Propmt setups
 starship init fish | source
