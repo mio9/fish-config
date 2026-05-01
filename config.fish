@@ -34,8 +34,9 @@ fish_add_path "$HOME/.cargo/bin/"
 starship init fish | source
 zoxide init fish | source
 
+if type -q mise
 mise activate fish | source # added by https://mise.run/fish
-
+end
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
